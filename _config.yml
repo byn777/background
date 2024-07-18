@@ -1,16 +1,15 @@
 # 欢迎使用 Jekyll！
-#
 # 此配置文件用于设置影响整个站点的参数，
 # 这些参数通常只需设置一次，很少需要修改。
 # 出于技术原因，当你使用 `jekyll serve -l -H localhost` 时，此文件不会自动重新加载。
 # 如果更改了此文件，请重新启动服务器进程。
 
 # 基本站点设置
-locale                   : "en-US" # 站点语言
+locale                   : "zh-CN" # 站点语言
 title                    : "byn_777" # 站点标题
 title_separator          : "-" # 标题分隔符
 name                     : &name "byn_777" # 站点名称
-description              : &description "personal description" # 站点描述
+description              : &description "葡萄" # 站点描述
 url                      : https://academicpages.github.io # 站点的基本 URL，例如 "https://mmistakes.github.io"
 baseurl                  : "" # 站点的子路径，例如 "/blog"
 repository               : "academicpages/academicpages.github.io" # 仓库地址
