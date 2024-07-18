@@ -1,141 +1,148 @@
-# 欢迎使用 Jekyll！
-# 此配置文件用于设置影响整个站点的参数，
-# 这些参数通常只需设置一次，很少需要修改。
-# 出于技术原因，当你使用 `jekyll serve -l -H localhost` 时，此文件不会自动重新加载。
-# 如果更改了此文件，请重新启动服务器进程。
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-# 基本站点设置
-locale                   : "zh-CN" # 站点语言
-title                    : "byn_777" # 站点标题
-title_separator          : "-" # 标题分隔符
-name                     : &name "byn_777" # 站点名称
-description              : &description "葡萄" # 站点描述
-url                      : https://byn777.github.io/background/ # 站点的基本 URL，例如 "https://mmistakes.github.io"
-baseurl                  : "" # 站点的子路径，例如 "/blog"
-repository               : "https://github.com/byn777/background" # 仓库地址
+# Basic Site Settings
+locale                   : "en-US"
+title                    : "byn_777"
+title_separator          : "-"
+name                     : &name "byn_777"
+description              : &description "personal description"
+url                      : https://byn777.github.io/background/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "academicpages/academicpages.github.io"
 
-# 站点作者 - 以下控制侧边栏中的作者内容。
-# 如果字段为空，图标和链接不会出现，否则会显示。
-# 通过编辑 /_includes/author-profile.html 可以进行更多自定义。
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # 传记信息
-  avatar           : "profile.png" # 头像
-  name             : "Bo-Yan,Huang" # 显示在侧边栏的名称
-  pronouns         : # 代词，例如 "she/her"
-  bio              : "保持善良 " # 短传记
-  location         : "Earth" # 所在地
-  employer         : "Red Brick University" # 雇主
-  uri              : # 个人网址
-  email            : "none@example.org" # 邮箱
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "Your Sidebar Name"
+  pronouns         : # example: "she/her"  
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
+  uri              : # URL
+  email            : "none@example.org" 
 
-  # 学术网站
-  arxiv            : # URL - 更新为你的个人页面链接
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ" # Google Scholar 链接
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl" # ORCID 链接
+  orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow" # PubMed 链接
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
-  # 代码仓库和软件开发
-  bitbucket        : # 用户名 - 更新为你的用户名
-  codepen          : # 用户名
-  dribbble         : # 用户名
-  github           : "academicpages" # GitHub 用户名
-  kaggle           : # 用户名  
-  stackoverflow    : # 用户编号或编号和用户名（例如 "1" 或 "1/jeff-atwood"）
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "academicpages"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
-  # 社交媒体
-  bluesky          : "bsky.app" # 替换为你的 Bluesky 用户名
-  facebook         : # 用户名
-  flickr           : # 用户名
-  foursquare       : # 用户名
-  goodreads        : # 用户名
-  google_plus      : # 用户名
-  keybase          : # 用户名
-  instagram        : # 用户名
-  lastfm           : # 用户名
-  linkedin         : # 用户名
+  # Social media
+  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
   mastodon         : # URL
   medium           : # URL
-  pinterest        : # 用户名
-  soundcloud       : # 用户名
-  steam            : # 用户名
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
   telegram         : # URL
-  tumblr           : # 用户名
-  twitter          : # X / Twitter 用户名
-  vine             : # 用户名
-  weibo            : # 用户名
-  wikipedia        : # 用户名
-  xing             : # 用户名
-  youtube          : # 用户名
+  tumblr           : # Username
+  twitter          : # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
   zhihu            : # URL
 
-# 站点设置
-teaser                   :  # 置顶图像的文件名，放置在 /images/ 中，例如 "500x300.png"
-breadcrumbs              : false # 是否启用面包屑导航，true 启用，false 禁用
-words_per_minute         : 160 # 每分钟阅读字数
-future                   : true # 是否显示未来的文章
-read_more                : "disabled" # 启用时，为摘要添加 "阅读更多" 链接
-talkmap_link             : false # 如果为 true，则在演讲页面添加 talkmap 链接
+
+# Site Settings
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : # 评论提供者，false（默认），"disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
-    server               : # 例如 meta.discourse.org，参见 https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     appid                :
-    num_posts            : # 文章数量，默认 5
-    colorscheme          : # 颜色方案，"light"（默认），"dark"
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message'] # 允许的字段
-  branch                 : "gh-pages" # 分支名称，"master", "gh-pages"
-  commitMessage          : "New comment." # 提交信息
-  filename               : comment-{@timestamp} # 文件名格式
-  format                 : "yml" # 文件格式
-  moderation             : true # 是否启用审核
-  path                   : "_data/comments/{options.slug}" # 评论路径
-  requiredFields         : ['name', 'email', 'message'] # 必填字段
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5" # 将邮箱转换为 md5
+    email                : "md5"
   generatedFields:
     date:
-      type               : "date" # 日期类型
+      type               : "date"
       options:
-        format           : "iso8601" # 日期格式，"iso8601"（默认），"timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false # 是否隐藏 RSS feed 链接
-  path                   : # 空白（默认）使用 feed.xml
+  hide                   : false     # change to true to hide the RSS feed in the footer
+  path                   : # blank (default) uses feed.xml
 
-# SEO 相关
+
+# SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-# 社交分享
+
+# Social Sharing
 twitter:
-  username               : &twitter # Twitter 用户名
+  username               : &twitter
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter 默认站点图像
-# 指定社交档案链接
-# 参见 https://developers.google.com/structured-data/customize/social-profiles
+og_image                 :  # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # 类型，Person 或 Organization（默认为 Person）
-  name                   : # 如果用户或组织名称与站点名称不同
-  links: # 社交媒体链接数组
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
 
-# 分析
+
+# Analytics
 analytics:
-  provider               :  "false" # 分析提供者，false（默认），"google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          : # 跟踪 ID
+    tracking_id          :
 
-# 读取文件
+
+# Reading Files
 include:
   - .htaccess
   - _pages
@@ -167,43 +174,47 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8" # 编码
-markdown_ext: "markdown,mkdown,mkdn,mkd,md" # Markdown 文件扩展名
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# 转换
-markdown: kramdown # Markdown 解析器
-highlighter: rouge # 代码高亮
-lsi: false # 启用 LSI（潜在语义索引）
-excerpt_separator: "\n\n" # 摘要分隔符
-incremental: false # 启用增量编译
 
-# Markdown 处理
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
 kramdown:
-  input: GFM # 输入格式
-  hard_wrap: false # 硬换行
-  auto_ids: true # 自动生成 ID
-  footnote_nr: 1 # 脚注编号起始值
-  entity_output: as_char # 实体输出格式
-  toc_levels: 1..6 # 目录层级
-  smart_quotes: lsquo,rsquo,ldquo,rdquo # 智能引号
-  enable_coderay: false # 启用 CodeRay
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-# 集合
+
+# Collections
 collections:
   teaching:
-    output: true # 输出
-    permalink: /:collection/:path/ # 固定链接格式
+    output: true
+    permalink: /:collection/:path/
   publications:
-    output: true # 输出
-    permalink: /:collection/:path/ # 固定链接格式
+    output: true
+    permalink: /:collection/:path/
   portfolio:
-    output: true # 输出
-    permalink: /:collection/:path/ # 固定链接格式
+    output: true
+    permalink: /:collection/:path/
   talks:
-    output: true # 输出
-    permalink: /:collection/:path/ # 固定链接格式
+    output: true
+    permalink: /:collection/:path/
 
-# 默认设置
+
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -259,25 +270,28 @@ defaults:
       author_profile: true
       share: true
 
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # 输出风格，参见 http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# 输出设置
-permalink: /:categories/:title/ # 固定链接格式
-# paginate: 5 # 每页显示文章数量
-# paginate_path: /page:num/ # 分页路径格式
-timezone: America/Los_Angeles # 时区，参见 http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# 插件
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# 使用 --safe 模式的插件白名单
+# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -285,17 +299,39 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-# 归档
-category_archive:
-  type: liquid # 类型
-  path: /categories/ # 路径
-tag_archive:
-  type: liquid # 类型
-  path: /tags/ # 路径
 
-# HTML 压缩
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
-  clippings: all # 压缩选项
+  clippings: all
   ignore:
-    envs: development # 忽略的环境
+    envs: development
