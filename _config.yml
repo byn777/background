@@ -10,9 +10,9 @@ title                    : "byn_777" # 站点标题
 title_separator          : "-" # 标题分隔符
 name                     : &name "byn_777" # 站点名称
 description              : &description "葡萄" # 站点描述
-url                      : https://academicpages.github.io # 站点的基本 URL，例如 "https://mmistakes.github.io"
+url                      : https://byn777.github.io/background/ # 站点的基本 URL，例如 "https://mmistakes.github.io"
 baseurl                  : "" # 站点的子路径，例如 "/blog"
-repository               : "academicpages/academicpages.github.io" # 仓库地址
+repository               : "https://github.com/byn777/background" # 仓库地址
 
 # 站点作者 - 以下控制侧边栏中的作者内容。
 # 如果字段为空，图标和链接不会出现，否则会显示。
@@ -20,9 +20,9 @@ repository               : "academicpages/academicpages.github.io" # 仓库地�
 author:
   # 传记信息
   avatar           : "profile.png" # 头像
-  name             : "Your Sidebar Name" # 显示在侧边栏的名称
+  name             : "Bo-Yan,Huang" # 显示在侧边栏的名称
   pronouns         : # 代词，例如 "she/her"
-  bio              : "Short biography for the left-hand sidebar" # 短传记
+  bio              : "保持善良 " # 短传记
   location         : "Earth" # 所在地
   employer         : "Red Brick University" # 雇主
   uri              : # 个人网址
