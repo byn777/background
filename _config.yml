@@ -22,20 +22,20 @@ author:
   # 传记信息
   avatar           : "profile.png" # 头像
   name             : "Bo-Yan,Huang" # 显示在侧边栏的名称
-  pronouns         : "she/her" # 代词，例如
-  bio              : "Short biography for the left-hand sidebar" # 短传记
-  location         : "Earth" # 所在地
-  employer         : "Red Brick University" # 雇主
+  pronouns         : #"she/her"  代词，例如
+  bio              : "Stay kind" # 短传记
+  location         : "Taiwan" # 所在地
+  employer         : "National Pingtung University of Science and Technology" # 雇主
   uri              : # 个人网址
-  email            : "none@example.org" # 邮箱
+  email            : "qqq33045123@gmail.com" # 邮箱
 
   # 学术网站
   arxiv            : # URL - 更新为你的个人页面链接
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ" # Google Scholar 链接
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ" # Google Scholar 链接
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl" # ORCID 链接
+  orcid            : #"http://orcid.org/yourorcidurl" # ORCID 链接
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow" # PubMed 链接
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow" # PubMed 链接
   researchgate     : # URL
 
   # 代码仓库和软件开发
