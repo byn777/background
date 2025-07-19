@@ -71,18 +71,6 @@ redirect_from:
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-## 演講與報告
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-## 教學經驗
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 ## 服務與領導
 ======
 * 參與校內外學術活動
