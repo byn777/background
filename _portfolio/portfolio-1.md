@@ -1,7 +1,47 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "機械設計專案 - 自動化零件設計"
+excerpt: "使用 SolidWorks 設計的機械零件，包含 3D 建模、組件裝配和工程圖製作<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## 專案概述
+
+這是一個使用 SolidWorks 完成的機械設計專案，展示了從概念設計到工程圖製作的完整流程。
+
+## 技術特色
+
+### 3D 建模
+- 使用 SolidWorks 進行參數化設計
+- 複雜曲面建模
+- 組件裝配與干涉檢查
+
+### 工程分析
+- 有限元素分析 (FEA)
+- 應力分析與優化
+- 運動模擬
+
+### 工程圖製作
+- 標準工程圖繪製
+- 尺寸標註與公差
+- BOM 表製作
+
+## 專案成果
+
+- 完成 10+ 個零件的 3D 建模
+- 建立完整的組件裝配
+- 生成標準工程圖
+- 通過設計審查
+
+## 使用技術
+
+- **CAD 軟體**: SolidWorks 2023
+- **分析工具**: SolidWorks Simulation
+- **工程圖**: SolidWorks Drawing
+- **版本控制**: PDM 系統
+
+## 學習收穫
+
+- 提升 3D 建模技能
+- 學習工程分析流程
+- 理解設計標準與規範
+- 加強專案管理能力 

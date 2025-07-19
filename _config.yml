@@ -6,7 +6,7 @@
 # 如果更改了此文件，请重新启动服务器进程。
 
 # 基本站点设置
-locale                   : "zh-CN" # 站点语言
+locale                   : "zh-TW" # 站点语言
 title                    : "byn_777" # 站点标题
 title_separator          : "-" # 标题分隔符
 name                     : &name "byn_777" # 站点名称
