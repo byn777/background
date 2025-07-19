@@ -25,7 +25,7 @@ author:
   pronouns         : #"she/her"  代词，例如
   bio              : "Stay kind" # 短传记
   location         : "Taiwan" # 所在地
-  employer         : "National Pingtung University of Science and Technology" # 雇主
+  employer         : " NPUST" # 雇主
   uri              : # 个人网址
   email            : "qqq33045123@gmail.com" # 邮箱
 
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # 用户编号或编号和用户名（例如 "1" 或 "1/jeff-atwood"）
 
   # 社交媒体
-  bluesky          : "bsky.app" # 替换为你的 Bluesky 用户名
+  bluesky          : # "bsky.app"  替换为你的 Bluesky 用户名
   facebook         : # 用户名
   flickr           : # 用户名
   foursquare       : # 用户名
