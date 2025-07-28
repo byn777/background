@@ -1,6 +1,6 @@
 ---
 title: "學術研究專案 - 工程技術創新應用"
-excerpt: "跨領域研究專案，結合工程技術與創新思維，探索新技術應用可能性<br/><img src='/images/500x300.png'>"
+excerpt: "跨領域研究專案，結合工程技術與創新思維，探索新技術應用可能性"
 collection: portfolio
 ---
 

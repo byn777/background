@@ -1,6 +1,6 @@
 ---
 title: "機械設計專案 - 自動化零件設計"
-excerpt: "使用 SolidWorks 設計的機械零件，包含 3D 建模、組件裝配和工程圖製作<br/><img src='/images/500x300.png'>"
+excerpt: "使用 SolidWorks 設計的機械零件，包含 3D 建模、組件裝配和工程圖製作"
 collection: portfolio
 ---
 

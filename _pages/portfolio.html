@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "作品集"
 permalink: /portfolio/
 author_profile: true
@@ -7,15 +7,26 @@ author_profile: true
 
 {% include base_path %}
 
-# 作品集
-
 ## 專案展示
 
 這裡展示了我參與的各種專案和作品，涵蓋工程設計、程式開發、學術研究等領域。
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="feature__wrapper">
+  {% for post in site.portfolio %}
+    <div class="feature__item">
+      <div class="archive__item">
+        <div class="archive__item-body">
+          <h3 class="archive__item-title">
+            <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+          </h3>
+          <div class="archive__item-excerpt">
+            {{ post.excerpt | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
 
 ## 專案分類
 

@@ -21,7 +21,7 @@ repository               : "https://github.com/byn777/background" # 仓库地址
 author:
   # 传记信息
   avatar           : "profile.png" # 头像
-  name             : "Bo-Yan,Huang" # 显示在侧边栏的名称
+  name             : "黃柏諺<br>Bo-Yan Huang" # 显示在侧边栏的名称
   pronouns         : #"she/her"  代词，例如
   bio              : "Stay kind" # 短传记
   location         : "Taiwan" # 所在地
@@ -250,7 +250,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _talks
   - scope:
       path: ""

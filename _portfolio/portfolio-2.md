@@ -1,6 +1,6 @@
 ---
 title: "Web 應用程式開發 - 數據分析平台"
-excerpt: "使用 Python 和 JavaScript 開發的數據分析平台，提供數據視覺化和分析功能<br/><img src='/images/500x300.png'>"
+excerpt: "使用 Python 和 JavaScript 開發的數據分析平台，提供數據視覺化和分析功能"
 collection: portfolio
 ---
 
